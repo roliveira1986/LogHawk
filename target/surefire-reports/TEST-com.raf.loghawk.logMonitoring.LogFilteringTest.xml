@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
-    <property name="sun.java.command" value="C:\Users\rafae\AppData\Local\Temp\surefire14201247412117901190\surefirebooter11673967709083067093.jar C:\Users\rafae\AppData\Local\Temp\surefire14201247412117901190 2022-09-10T16-19-43_923-jvmRun1 surefire4876151455150881124tmp surefire_011619734145778925461tmp"/>
+    <property name="sun.java.command" value="C:\Users\rafae\AppData\Local\Temp\surefire571080589505797250\surefirebooter3888662539500716294.jar C:\Users\rafae\AppData\Local\Temp\surefire571080589505797250 2022-09-10T16-46-56_168-jvmRun1 surefire15839047881137047975tmp surefire_07382762311253534111tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rafae\OneDrive\Documents\NetBeansProjects\LogHawk\target\test-classes;C:\Users\rafae\OneDrive\Documents\NetBeansProjects\LogHawk\target\classes;C:\Users\rafae\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\rafae\.m2\repository\org\apache\kafka\kafka-clients\7.0.1-ccs\kafka-clients-7.0.1-ccs.jar;C:\Users\rafae\.m2\repository\com\github\luben\zstd-jni\1.5.0-2\zstd-jni-1.5.0-2.jar;C:\Users\rafae\.m2\repository\org\lz4\lz4-java\1.7.1\lz4-java-1.7.1.jar;C:\Users\rafae\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.1\snappy-java-1.1.8.1.jar;C:\Users\rafae\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rafae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\rafae\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rafae\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rafae\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\rafae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\rafae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\rafae\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rafae\AppData\Local\Temp\surefire14201247412117901190\surefirebooter11673967709083067093.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rafae\AppData\Local\Temp\surefire571080589505797250\surefirebooter3888662539500716294.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
@@ -62,5 +62,5 @@
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="testGetFilters" classname="com.raf.loghawk.logMonitoring.LogFilteringTest" time="0"/>
-  <testcase name="testEvaluateFilters" classname="com.raf.loghawk.logMonitoring.LogFilteringTest" time="0.001"/>
+  <testcase name="testEvaluateFilters" classname="com.raf.loghawk.logMonitoring.LogFilteringTest" time="0.002"/>
 </testsuite>

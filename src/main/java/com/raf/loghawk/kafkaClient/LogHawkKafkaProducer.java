@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.raf.loghawk.kafkaClient;
 
 import java.net.InetAddress;
@@ -10,10 +6,6 @@ import java.util.Properties;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-/**
- *
- * @author rafae
- */
 public class LogHawkKafkaProducer
 {
 

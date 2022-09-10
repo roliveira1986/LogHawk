@@ -19,7 +19,7 @@ public class Main
 
    public static Properties prop = null;
 
-   public static boolean testMode = true;
+   public static boolean testMode = false; //enable this to true to test if from IDE using local resource config file
 
    /**
     * @param args the command line arguments
@@ -39,7 +39,7 @@ public class Main
          //get the property value and print it out
          if (testMode)
          {
-            prop = c.loadConfig("C:\\Users\\rafae\\OneDrive\\Documents\\NetBeansProjects\\LogHawk\\src\\main\\resources\\logHawkConfig.properties");
+            prop = c.loadConfig(Main.class.getClassLoader().getResource("logHawkConfig.properties").getFile());
             for (String s : prop.stringPropertyNames())
             {
                logger.info(s + " : " + prop.getProperty(s));

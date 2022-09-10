@@ -7,9 +7,6 @@ package com.raf.loghawk.logMonitoring;
 import com.raf.loghawk.ConfigLoader;
 import static com.raf.loghawk.Main.prop;
 import java.util.Map;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -32,7 +29,7 @@ public class LogFilteringTest
    public static void setUpClass()
    {
       ConfigLoader c = new ConfigLoader();
-      prop = c.loadConfig("C:\\Users\\rafae\\OneDrive\\Documents\\NetBeansProjects\\LogHawk\\src\\main\\resources\\logHawkConfig.properties");
+      prop = c.loadConfig(LogFilteringTest.class.getClassLoader().getResource("logHawkConfig.properties").getFile());
       lf = new LogFiltering(prop);
    }
    

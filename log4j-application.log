@@ -1411,3 +1411,7 @@
 [main] 2022-09-10 16:19:44 INFO  LogFiltering:62 - regex -> .*NullPointer.*
 [main] 2022-09-10 16:19:44 INFO  LogFiltering:62 - contains -> catalina
 [main] 2022-09-10 16:19:44 INFO  LogFiltering:62 - startsWith -> //
+[main] 2022-09-10 16:46:57 INFO  LogFiltering:59 - Loded Filters are:
+[main] 2022-09-10 16:46:57 INFO  LogFiltering:62 - regex -> .*NullPointer.*
+[main] 2022-09-10 16:46:57 INFO  LogFiltering:62 - contains -> catalina
+[main] 2022-09-10 16:46:57 INFO  LogFiltering:62 - startsWith -> //

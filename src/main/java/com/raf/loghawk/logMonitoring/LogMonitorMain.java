@@ -6,10 +6,7 @@ import java.io.*;
 import java.util.*;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-/**
- *
- * @author rafae
- */
+
 public class LogMonitorMain extends Thread 
 {
 
