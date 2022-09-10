@@ -1,0 +1,31 @@
+@startuml
+class com.raf.loghawk.ConfigLoader
+class com.raf.loghawk.Main
+class com.raf.loghawk.kafkaClient.LogHawkKafkaProducer
+class com.raf.loghawk.logMonitoring.LogFiltering
+class com.raf.loghawk.logMonitoring.LogMonitorMain
+class org.apache.kafka.clients.producer.KafkaProducer
+class org.apache.kafka.clients.producer.ProducerRecord
+class org.apache.log4j.LogManager
+class org.apache.log4j.Logger
+com.raf.loghawk.Main ..> com.raf.loghawk.kafkaClient.LogHawkKafkaProducer
+com.raf.loghawk.Main ..> com.raf.loghawk.logMonitoring.LogFiltering
+com.raf.loghawk.Main ..> com.raf.loghawk.logMonitoring.LogMonitorMain
+com.raf.loghawk.Main ..> org.apache.log4j.LogManager
+com.raf.loghawk.Main ..> org.apache.log4j.Logger
+com.raf.loghawk.kafkaClient.LogHawkKafkaProducer ..> java.net.InetAddress
+com.raf.loghawk.kafkaClient.LogHawkKafkaProducer ..> java.net.UnknownHostException
+com.raf.loghawk.kafkaClient.LogHawkKafkaProducer ..> java.util.Properties
+com.raf.loghawk.kafkaClient.LogHawkKafkaProducer ..> org.apache.kafka.clients.producer.KafkaProducer
+com.raf.loghawk.kafkaClient.LogHawkKafkaProducer ..> org.apache.kafka.clients.producer.ProducerRecord
+com.raf.loghawk.logMonitoring.LogFiltering ..> java.util.HashMap
+com.raf.loghawk.logMonitoring.LogFiltering ..> java.util.Map
+com.raf.loghawk.logMonitoring.LogFiltering ..> java.util.Properties
+com.raf.loghawk.logMonitoring.LogFiltering ..> org.apache.log4j.LogManager
+com.raf.loghawk.logMonitoring.LogFiltering ..> org.apache.log4j.Logger
+com.raf.loghawk.logMonitoring.LogMonitorMain ..> com.raf.loghawk.Main
+com.raf.loghawk.logMonitoring.LogMonitorMain ..> com.raf.loghawk.kafkaClient.LogHawkKafkaProducer
+com.raf.loghawk.logMonitoring.LogMonitorMain --|> java.lang.Thread
+com.raf.loghawk.logMonitoring.LogMonitorMain ..> org.apache.log4j.LogManager
+com.raf.loghawk.logMonitoring.LogMonitorMain ..> org.apache.log4j.Logger
+@enduml

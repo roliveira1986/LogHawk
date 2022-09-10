@@ -1,0 +1,5 @@
+com\raf\loghawk\kafkaClient\LogHawkKafkaProducer.class
+com\raf\loghawk\Main.class
+com\raf\loghawk\ConfigLoader.class
+com\raf\loghawk\logMonitoring\LogFiltering.class
+com\raf\loghawk\logMonitoring\LogMonitorMain.class
